@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(278.56deg, rgb(1, 25, 60) 0%, rgb(150, 184, 231) 100%);
+    font-size: 1.6rem;
+
+    display: grid; 
+    place-items: center; 
+    height: 100vh;
+
+    font-family: sans-serif;
+}
+
+main{
+background-color: rgb(255, 255, 255);
+min-width: 48.5rem 90% ;
+box-shadow: 0px .2rem .4rem rgba(0, 0, 0, 0.1);
+border-radius: 7px;
+margin: 0 auto;
+text-align: center;
+margin-top: -12rem;
+padding: 10rem 4rem;
+
+}
+
+.tela1 input{
+    margin-top: 3rem;
+    padding: .5rem;
+    position: relative;
+    left: .5rem;
+    border-radius: 5px 0 0 5px ;
+    outline: none;
+    border: none;
+    background-color: rgb(234, 234, 234);
+   
+
+
+}
+
+.tela1 button{
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    padding: .5rem;
+    outline: none;
+    border: none;
+    background-color: rgb(77, 92, 122);
+    color: aliceblue;
+    
+}
+
+.tela2 button{
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: .5rem;
+    outline: none;
+    border: none;
+    margin-top: 3rem;
+    background-color: rgb(77, 92, 122);
+    
+}
+
+.hide{
+    display: none;
+}
